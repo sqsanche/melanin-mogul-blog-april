@@ -1,0 +1,47 @@
+/* Add application styles & imports to this file! */
+@import url("https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/cosmo/bootstrap.min.css");
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.card-loading {
+  .card-meta,
+  .card-title,
+  .card-text {
+    background: linear-gradient(to right, lightgray, white, lightgray);
+    animation: skeleton 3s infinite;
+    animation-timing-function: cubic-bezier(0.36,0.66,0.04,1);
+
+    background-repeat: no-repeat;
+    background-position-x: -300px;
+    background-position-y: 0;
+
+    background-color: lightgray;
+
+    opacity: 0.5;
+  }
+  .card-title {
+    height: 20px;
+    max-width: 200px;
+    margin: 10px 0 20px!important;
+    padding: 10px;
+  }
+  .card-meta {
+    max-width: 150px;
+    height: 10px;
+    margin: 8px 0 4px;
+  }
+  .card-text {
+    max-width: 250px;
+    margin-top: 5px;
+    height: 18px;
+  }
+}
+
+@keyframes skeleton {
+  0% {
+    background-position-x: -300px;
+  }
+  100% {
+    background-position-x: 300px;
+  }
+}
