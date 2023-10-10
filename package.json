@@ -9,7 +9,7 @@
     "zone.js": "0.8.26",
     "apollo-link": "1.2.2",
     "graphql-tag": "2.9.2",
-    "@angular/core": "6.0.5",
+    "@angular/core": "10.2.5",
     "apollo-client": "2.3.4",
     "@angular/forms": "6.0.5",
     "apollo-angular": "1.1.0",
